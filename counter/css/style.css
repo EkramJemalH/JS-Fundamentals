@@ -1,0 +1,27 @@
+
+#counter{
+    text-align: center;
+    font-size: 8em;
+    display: block;
+
+}
+#button{
+    text-align: center;
+}
+button{
+width: 10%;
+height: 50px;
+border-radius: 12px;
+font-size: 1em;
+}
+#decreaseBtn{
+    background-color: red;
+    color: white;
+}
+#resetBtn{
+    background-color: white;
+    color: black;
+}
+#increaseBtn{
+    background-color: green;
+}

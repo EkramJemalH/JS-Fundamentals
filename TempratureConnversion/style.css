@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+div{
+    border: 2px solid black;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+    width:50vh;
+    box-shadow: 5px 5px 5px  5px Rgb(0,0,0);
+
+}
+button{
+    width:70px;
+    height:24px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+#inputBtn{
+    width:150px;
+    height:42px;
+    border: 3px solid black;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:12px;
+    margin-bottom: 12px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}

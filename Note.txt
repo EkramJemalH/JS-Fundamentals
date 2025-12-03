@@ -1,0 +1,68 @@
+##Variable##
+
+Variable=they are container of data value.
+inorder to use a varaiable we need to declear and assign the variable 
+steps:1.declaration :Ex=let x;
+      2.assignment :Ex, x=10;
+we have differnet data type including string,integer and boolean
+
+##User input## 
+
+in js we can accept usre input using 2 ways 
+      1.using window prompt(Easy way)
+      2.using HTML textbox(proffesional way)
+using window prompt:this appears in the window alert box 
+      Example:let username=window.prompt("what is your user name ");
+                        header.textContent=username;
+using HTMl textbox:this will appear on the web page
+      Example:javascript: 
+            const userInput=document.getElementById("input");
+            const header=document.getElementById("header");
+            document.getElementById("inputBtn").onclick=function() {
+                        let user=userInput.value;
+                        header.textContent=user;
+                  };
+            HTML:
+            <body>
+                  <h1 id="header">Hello</h1>
+                  <input type="text" id="input">
+                  <button id="inputBtn">Click</button>
+                  <script src="script.js"></script>
+            </body>
+
+##type conversion## 
+
+ type conversion is converting one datatype into another 
+      Example :let x=100;
+            x=String(x);//this will change x to string 
+            x=boolen(x)//this will change x into boolean value
+
+##Constant## 
+
+const=is a variable that cant be reassigned once it have been decelared and assigned a value
+
+#Math functions ##
+      
+      In js we have built in maths functions like Math.floor(),Math.random() and etc that allow us to perform a 
+      mathimatical equations
+
+##If statements ##
+      If statements are conditional statements in which if the condition is true the next ontput will be exetued and if false it will be skipped
+      it is just like boolen,true or false simply 
+
+##Checked property## 
+      we use it to tell if an an inout which is check box or radio is checked or not
+
+##Ternary Operator##  
+      It is a short version of if else statement ,it also checks condition
+      syntax:
+            condition? ifTrue :ifFalse;
+
+##Switch operator##  
+      switch is an alternative that we use to replace many if else statments
+ 
+##Function##  
+      functions are reusable code that you can decelare once and use it as many times as u want 
+      when ever you want to use you should call it(for execution)
+      a function my have an argument u pass,arguments are parameters or info you want to use inside a function
+      function also may have a return type 
