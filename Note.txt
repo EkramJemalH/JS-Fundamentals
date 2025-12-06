@@ -66,3 +66,76 @@ const=is a variable that cant be reassigned once it have been decelared and assi
       when ever you want to use you should call it(for execution)
       a function my have an argument u pass,arguments are parameters or info you want to use inside a function
       function also may have a return type 
+##Callback## 
+      callback is a function that is passed as ana argument to another function,
+      it is like"hey when you are done call this next"
+      example:
+                  bye(hello);
+                  function hello(){
+                        console.log("hello,again");
+
+                  }
+                  function bye(callback){
+                        console.log("bye for now");
+                  }
+
+                  output:bye for now 
+                         hello again
+
+##Foreach method## 
+      it is a method used to iterate over an array and applay a callback function to them(doesnt return a new array)
+      syntax:array.foreach(callback)....inshort
+            array.foreach(function(currentvalue,indexmarray){
+                  //code
+            })... 
+
+##map method## 
+      it is like a foreach ,but return a new array
+
+##filter method## 
+      take the same argument as foreach method but return new array that have passed a test or simply filter 
+
+##function experssion## 
+      is a way to define function as a value or variable
+      example:
+      let numebr=[1,12,2,3,4,5,6];
+            const square=number.map(function(element){
+            return element%2==0;
+            })
+
+            output:12,2,4,6
+
+##Object##
+      an object is a collection of related properties and methods
+      syntax:object={
+            key:value,
+            function();
+      }
+
+##Class##
+      provides a more structured and cleaner way to work 
+      with objects compared to traditional constructor function
+      serves as a blueprint
+      new obejects access methods and properties using the dot opertator(.)
+
+##static keyword##
+      is a keyweord tat defines properties or method that is dedicated
+      to a class itself rahter than the objects creted from that class
+      class owns anything that is static and not the object itself
+
+##inheritance## 
+      allow class to inherit properties and methods for other existing class
+      syntax:
+            class Parent{
+                  //code
+            }
+            class Child extends Parent{
+                  //code
+            }
+## Super keyword## 
+      refers to the parent constructor it self
+
+##Getter and Setter##
+       getter is a function that gets a property value,runs automatically when you read a property(make it readable)
+       setter is a function that sets a property value,runs automatically when you assgin a value(make it writtable )
+       both are used to validate an input 
