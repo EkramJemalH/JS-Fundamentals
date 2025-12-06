@@ -1,31 +1,6 @@
-class Reactangle{
-    constructor(width,height){
-        this.width=width;
-        this.height=height;
-    }
-    set width(newWidth){
-        if(newWidth>0){
-            this._width=newWidth;
-        }
-        else{
-            console.log("invalid width");
-        }
-    }
-    set height(newHeight){
-        if(newHeight>0){
-            this._height=newHeight;
-        }
-        else{
-            console.log("invalid Height");
-        }
-    }
-    get width(){
-        return this._width;
-    }
-    get height(){
-        return this._height;
-    }
-}
-const react=new Reactangle(-10,20);
-console.log(react.width);
-console.log(react.height);
+const color=["red","blue","yellow","white"];
+[color[0],color[1]]=[color[2],color[3]];
+console.log(color[0]);
+console.log(color[1]);
+console.log(color[2]);
+console.log(color[3]);

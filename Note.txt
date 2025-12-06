@@ -127,7 +127,7 @@ const=is a variable that cant be reassigned once it have been decelared and assi
       allow class to inherit properties and methods for other existing class
       syntax:
             class Parent{
-                  //code
+                   //code
             }
             class Child extends Parent{
                   //code
@@ -139,3 +139,8 @@ const=is a variable that cant be reassigned once it have been decelared and assi
        getter is a function that gets a property value,runs automatically when you read a property(make it readable)
        setter is a function that sets a property value,runs automatically when you assgin a value(make it writtable )
        both are used to validate an input 
+
+##Destructing##
+      used to replace elements
+      used to assign array elements to variable
+      used for extracting value from objects and arrays 
