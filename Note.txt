@@ -185,3 +185,24 @@ const=is a variable that cant be reassigned once it have been decelared and assi
        is a function in js that allows you to sechdule the exection of a function after an amounr of times
        syntax:setTimeout(callback or function,delay);
       clearTimeout(timeoutId)==can cancel a timeout before it trigger
+
+##ES6 Module##
+      an external file that contains reusable code that can be 
+      imported into other javascript files ,it can conatin any function,variable  
+
+##Sychronous## 
+      execture code line by line consecutively in specific manner
+      so it waits the above code to finish before executing the next
+
+##Asynchronus## 
+      allows multiple opertation to perfomed concurrently(parallel)
+      like I/O operation,network request,fetcging data...
+      handle with:Callback,promises ,async/await
+
+##Error## 
+      is an object that is created when somethg unusal happens
+      so we need things to hanlde it 
+      try()=the code that may throw an Error
+      catch()=catch and handle any thrown Error have one parameter=error
+            console.error();
+      finally()=always exectues,used mostly to close files,connection and also release resource
