@@ -144,3 +144,44 @@ const=is a variable that cant be reassigned once it have been decelared and assi
       used to replace elements
       used to assign array elements to variable
       used for extracting value from objects and arrays 
+##nested objects## 
+      are objects inside another objects 
+      we can acess the whole object by a dot operator but to access the inner property we need to use the 
+      dot operator twice 
+      ex:
+            perosn={
+                  name:"ekram"
+                  address:{
+                        number:"124"
+                        street:"AA"
+                  }
+            }
+            console.log(person.adress.number)//output 124
+      allow you to represent a complex data structure
+
+##Array of objects## 
+      this is just like objects but here we have arrays of objects(many objects in one array)
+
+##Sort## 
+      method used to sort elemnet of array since it sorts using lexicographics order 
+      we need to use a method(function) inside it
+      syntax:number.sort((a,b)=>a-b)//this will sort based on increasing 
+            number.sort((a,b)=>b-a)//this will sort based on decreasing 
+            mainly we us ethis synatx when we are dealing with number
+
+            for strings
+      people.sort((a,b)=>a.name.localeCompare(b.name))//increasing 
+       people.sort((a,b)=>b.name.localeCompare(a.name))//decreasing
+
+##Date object##
+      objects that contain values that represent dates and times
+      syntax:
+      const date=new Date(year,month,day,hour,minute,second,ms)
+
+##closure##
+      a function defines inside of another function,the inner function has access to the variable of the outer
+
+##setTimeout()##
+       is a function in js that allows you to sechdule the exection of a function after an amounr of times
+       syntax:setTimeout(callback or function,delay);
+      clearTimeout(timeoutId)==can cancel a timeout before it trigger
