@@ -206,3 +206,37 @@ const=is a variable that cant be reassigned once it have been decelared and assi
       catch()=catch and handle any thrown Error have one parameter=error
             console.error();
       finally()=always exectues,used mostly to close files,connection and also release resource
+ 
+ ##DOM##
+      documnet object model:it is an object that represent the page you are in the web browser
+      and provide you with an API(a mechanism to interact with it ) to interact with it
+      Js can access the DOM to dynamically change the content,structure and style of we page
+      
+##DOM navigation##
+      the process of navigating throuh the structre of an 
+      html document using js
+      ex: .firstElementChild//access first child
+            .lastElementChild
+            .nextElementSibiling//access next sibiling
+            .previousElementSibiling
+            .parentElement//accesss the parent element
+            .children
+
+##Create element and adding properties##
+      we can create elements in js by using the 
+      ".createElement" property
+      steps to create an element
+      step 1:const namefornewelemnt=document.createElement("html elemnent");
+      step2:add attribute=could be 
+                              namefornewelemnet.textContent
+                              namefornewelemnet.id
+                              namefornewelemnt.style and etc..
+      step3: append the element to dom=we use .append()//this willl add it as a last element(child) 
+                                       we can use .prepend()//this iwll addd it as a first child
+      step4:to remove =removeChild() 
+##classList##
+      element property in javascript used to interact with an element list of classes
+      methods used=.add()
+                   .remove()
+                   .toggle(if present,if not)
+                   .replace(oldclass,newclass) 
